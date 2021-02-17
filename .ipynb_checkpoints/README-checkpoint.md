@@ -9,7 +9,7 @@ Details for Milestone are available on Canvas (left sidebar, Course Project) or 
 
 ## Describe your dataset in about 150-200 words
 
-{This data set includes the flight delays in the United States in the months of January, February, and March of 2015 for each day. It includes the airline invloved, tail number of the a/c, origin, destination, scheduled arrival/departure time, taxi times etc. The data was recorded for each flight through their dispatch services and uploaded to a common database. The purpose of this datadet is out of pure interest, as we get variable delays due to holidays, weather, events that occur during these different months.}
+{This data set includes the flight delays in the United States in the months of January of 2015 for each day. It includes the airline invloved, tail number of the a/c, origin, destination, scheduled arrival/departure time, taxi times etc. The data was recorded for each flight through their dispatch services and uploaded to a common database. The purpose of this datadet is out of pure interest, as we get variable delays due to holidays, weather, events that occur during the month.}
 
 ## Describe your topic/interest in about 150-200 words
 
