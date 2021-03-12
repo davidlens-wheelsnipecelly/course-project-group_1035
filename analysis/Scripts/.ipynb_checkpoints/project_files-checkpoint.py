@@ -32,21 +32,30 @@ def group_by(df):
 
 
 def displot(df):
-    sns.displot(df['DAY'], kde=True, bins=31).set_title('number of flights on days during the month')
+    sns.displot(df['DAY'], kde=True, bins=31)
     
 #In[11]
     
     
 def displot2(df):
-    sns.displot(df['AIRLINE'], kde=False, bins=13).set_title('amount of flights per airline')
+    sns.displot(df['AIRLINE'], kde=False, bins=13)
     
 #In[12]
     
     
 def displot3(df):
-    sns.displot(df['ORIGIN_AIRPORT'], kde=False, bins=322).set_title('departing flights')
+    sns.displot(df['ORIGIN_AIRPORT'], kde=False, bins=322)
     
 #In[9]
     
 def barplot(df):
-    sns.barplot(x = 'DELAYED_OR_NOT', data =df).set_title('number of flights delayed versus on time')
+    sns.barplot(y = count, x = 'DELAYED_OR_NOT', data =df).set_title('number of flights delayed versus on time')
+    
+#[]
+    
+def barplot2(df):
+    sns.barplot(y = 'AIRLINE', x = 'DELAYED_OR_NOT', data =df).set_title('Airlines that experienced most delays')
+   
+
+def stripplot(df):
+    sns.stripplot(y = 'DISTANCE', x ='DELAYED_OR_NOT', data = df).set_title('Flight distance and delays')
